@@ -1,1 +1,61 @@
+body {
+  width: 100%;
+  font-family: ui-monospace, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  text-align: center;
+  font-weight: 400;
+}
 
+.container{
+  display: grid;
+}
+
+#nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: darkgray;
+  text-decoration: none;
+  text-decoration-color: black;
+}
+
+.active {
+  background-color: darkgray;
+}
+
+#welcome{
+  
+}
+
+#description{
+  
+}
+
+#robotron {
+  width: 500px;
+  height: 500px;
+  border-style: solid;
+}
+
+
+/* Verdana, Geneva, Tahoma, sans-serif; */
